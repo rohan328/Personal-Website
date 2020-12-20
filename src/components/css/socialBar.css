@@ -1,0 +1,14 @@
+.socialBar{
+  padding: 10px 16px;
+}
+
+.socialBarIcon{
+  position: relative;
+  width: 30px;
+  margin: 10px;
+}
+
+.socialBarIcon:hover{
+  transform: scale(1.5);
+  transition:0.3s
+}

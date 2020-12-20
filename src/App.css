@@ -1,10 +1,24 @@
+@font-face {
+  font-family: abel;
+  src: "Abel-Regular.ttf";
+  src: local('Abel-Regular'), url('./fonts/Abel-Regular.ttf') format('truetype');
+}
+
 .App {
-  text-align: center;
+  font-family:abel;
+}
+
+.aboutme {
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-navigation{
+  color:red;
 }
 
 @media (prefers-reduced-motion: no-preference) {
