@@ -5,4 +5,5 @@ export { default as Resume } from "./Resume";
 export { default as Contact } from "./Contact";
 export { default as Projects } from "./Projects";
 export { default as profileCard } from "./profileCard";
-export { default as socialBar } from "./socialBar";
+export { default as SocialBar } from "./SocialBar";
+export { default as underConstruction } from "./underConstruction";

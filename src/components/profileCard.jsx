@@ -1,6 +1,6 @@
 import React from "react"
 import "./css/profileCard.css"
-import socialBar from "./socialBar"
+import SocialBar from "./SocialBar"
 
 function profileCard(){
   return(
@@ -11,7 +11,7 @@ function profileCard(){
         <p class="title">Computer Engineering Student
                       <br/>San Jose State University
         </p>
-        {socialBar()}
+        <SocialBar/>
       </div>
     </div>
   );

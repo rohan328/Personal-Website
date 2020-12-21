@@ -11,7 +11,7 @@ function AboutMe() {
             {profileCard()}
           </div>
           <div class="col-lg-5">
-            <h1>Rohan Ohlan</h1>
+            <h1><b>Rohan Ohlan</b></h1>
             <h5>Computer Engineering Student</h5>
             <h6>San Jose State University</h6>
             <p>

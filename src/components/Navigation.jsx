@@ -1,64 +1,74 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import "./css/Navigation.css"
 
-function Navigation(props) {
-  return (
-    <div className="navigation">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <Link class="navbar-brand" to="/">
-            Rohan Ohlan
-          </Link>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
 
-            <ul class="navbar-nav ml-auto">
 
-              <li
-                class={`nav-item  ${props.location.pathname === "/" ? "active" : ""}`}>
-                <Link class="nav-link" to="/">
-                  About Me
-                  <span class="sr-only">(current)</span>
-                </Link>
-              </li>
+class Navigation extends React.Component {
 
-              <li
-                class={`nav-item  ${props.location.pathname === "/resume" ? "active" : ""}`}>
-                <Link class="nav-link" to="/resume">
-                  Resume
-                </Link>
-              </li>
+  constructor(){
+    super()
+    this.myFunction = this.myFunction.bind(this);
 
-              <li
-                class={`nav-item  ${props.location.pathname === "/projects" ? "active" : ""}`}>
-                <Link class="nav-link" to="/projects">
-                  Projects
-                </Link>
-              </li>
+  }
 
-              <li
-                class={`nav-item  ${props.location.pathname === "/contact" ? "active" : ""}`}>
-                <Link class="nav-link" to="/contact">
-                  Contact
-                </Link>
-              </li>
+  myFunction() {
+    var x = document.getElementById("topNav");
+    var menu = document.getElementById("menu");
+    if(window.getComputedStyle(menu).display != "none"){
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  }
 
-            </ul>
+  render() {
+    return(
+      <div className="topnav" id="topNav">
+        <div class="navbar">
+
+          <div class="nav-title">
+            <Link class="navTitleText" to="/">
+              Rohan Ohlan
+            </Link>
+          </div>
+
+          <div class="nav-links">
+            <a href="javascript:void(0)" onClick={this.myFunction} class="icon" id="menu">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 384" enable-background="new 0 0 384 384;">
+                <rect x="0" y="277.333" width="384" height="42.667" fill="white"/>
+                <rect x="0" y="170.667" width="384" height="42.667" fill="white"/>
+                <rect x="0" y="64" width="384" height="42.667" fill="white"/>
+              </svg>
+
+            </a>
+
+            <Link class="nav-link" to="/" onClick={this.myFunction}>
+              About Me
+            </Link>
+
+            <Link class="nav-link" to="/resume" onClick={this.myFunction}>
+              Resume
+            </Link>
+
+            <Link class="nav-link" to="/projects" onClick={this.myFunction}>
+              Projects
+            </Link>
+
+            <Link class="nav-link" to="/contact" onClick={this.myFunction}>
+              Contact
+            </Link>
+
           </div>
         </div>
-      </nav>
     </div>
   );
+  }
 }
+
+
 
 export default withRouter(Navigation);

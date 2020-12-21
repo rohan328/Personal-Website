@@ -7,16 +7,19 @@ import { Navigation, Footer, AboutMe, Resume, Contact, Projects } from "./compon
 function App() {
   return (
     <div className="App">
+
       <Router>
-        <Navigation />
-        <Switch>
-          <Route path="/" exact component={() => <AboutMe />} />
-          <Route path="/resume" exact component={() => <Resume />} />
-          <Route path="/projects" exact component={() => <Projects />} />
-          <Route path="/contact" exact component={() => <Contact />} />
-        </Switch>
-        <Footer />
+        <Navigation/>
+          <div className="content">
+            <Switch>
+              <Route path="/" exact component={() => <AboutMe />} />
+              <Route path="/resume" exact component={() => <Resume />} />
+              <Route path="/projects" exact component={() => <Projects />} />
+              <Route path="/contact" exact component={() => <Contact />} />
+            </Switch>
+          </div>
       </Router>
+      <Footer />
     </div>
   );
 }
