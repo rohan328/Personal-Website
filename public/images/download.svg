@@ -1,0 +1,43 @@
+<svg width="3001.9999999999995" height="902" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="904" width="3004" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_29">
+   <rect rx="20" id="svg_26" height="797.23205" width="2915.29079" y="52.38397" x="43.35461" stroke-width="10" stroke="#00ad00" fill="none"/>
+   <g id="svg_25">
+    <g id="svg_23">
+     <g id="svg_1">
+      <g id="svg_2">
+       <path fill="#00ad00" stroke="#00ad00" id="svg_3" d="m570.79565,508l0,139c0,11.028 -8.972,20 -20,20l-392,0c-11.028,0 -20,-8.972 -20,-20l0,-139l-40,0l0,139c0,33.084 26.916,60 60,60l392,0c33.084,0 60,-26.916 60,-60l0,-139l-40,0z"/>
+      </g>
+     </g>
+     <g id="svg_4">
+      <g id="svg_5">
+       <polygon fill="#00ad00" stroke="#00ad00" id="svg_6" points="450.795654296875,430.7159729003906 374.795654296875,506.7159729003906 374.795654296875,195 334.795654296875,195 334.795654296875,506.7159729003906 258.7956237792969,430.7159729003906 230.5116729736328,459.00006103515625 354.795654296875,583.2839965820312 479.07965087890625,459.00006103515625 "/>
+      </g>
+     </g>
+     <g id="svg_7"/>
+     <g id="svg_8"/>
+     <g id="svg_9"/>
+     <g id="svg_10"/>
+     <g id="svg_11"/>
+     <g id="svg_12"/>
+     <g id="svg_13"/>
+     <g id="svg_14"/>
+     <g id="svg_15"/>
+     <g id="svg_16"/>
+     <g id="svg_17"/>
+     <g id="svg_18"/>
+     <g id="svg_19"/>
+     <g id="svg_20"/>
+     <g id="svg_21"/>
+    </g>
+    <text font-weight="bold" stroke="#00ad00" transform="matrix(10.295278312703136,0,0,12.417255539785115,-8962.6091142314,-4136.229750549774) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_24" y="377.72806" x="937.86111" stroke-width="0" fill="#00ad00">Download Resume</text>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -57,6 +57,10 @@ class Navigation extends React.Component {
               </Link>
 
           </div>
+
+          <a id="download" href="resume.pdf" download>
+              <img src="images/download.svg" height='50px'/>
+          </a>
         </div>
     </div>
   );
