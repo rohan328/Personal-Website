@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import {Link} from "react-router-dom";
 import "./css/Navigation.css"
 
 
@@ -15,7 +15,7 @@ class Navigation extends React.Component {
   myFunction() {
     var x = document.getElementById("topNav");
     var menu = document.getElementById("menu");
-    if(window.getComputedStyle(menu).display != "none"){
+    if(window.getComputedStyle(menu).display !== "none"){
       if (x.className === "topnav") {
         x.className += " responsive";
       } else {
@@ -27,37 +27,34 @@ class Navigation extends React.Component {
   render() {
     return(
       <div className="topnav" id="topNav">
-        <div class="navbar">
+        <div className="navbar">
 
-          <div class="nav-title">
-            <Link class="navTitleText" to="/">
+          <div className="nav-title">
+            <Link className="navTitleText" to="/">
               Rohan Ohlan
             </Link>
           </div>
 
-          <div class="nav-links">
-            <a href="javascript:void(0)" onClick={this.myFunction} class="icon" id="menu">
+          <div className="nav-links">
               <svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 384 384" enable-background="new 0 0 384 384;">
+                viewBox="0 0 384 384" enableBackground="new 0 0 384 384;"
+                onClick={this.myFunction} className="icon" id="menu">
                 <rect x="0" y="277.333" width="384" height="42.667" fill="white"/>
                 <rect x="0" y="170.667" width="384" height="42.667" fill="white"/>
                 <rect x="0" y="64" width="384" height="42.667" fill="white"/>
               </svg>
 
-            </a>
+              <Link className="nav-link" to="/resume" onClick={this.myFunction}>
+                Resume
+              </Link>
 
+              <Link className="nav-link" to="/projects" onClick={this.myFunction}>
+                Projects
+              </Link>
 
-            <Link class="nav-link" to="/resume" onClick={this.myFunction}>
-              Resume
-            </Link>
-
-            <Link class="nav-link" to="/projects" onClick={this.myFunction}>
-              Projects
-            </Link>
-
-            <Link class="nav-link" to="/contact" onClick={this.myFunction}>
-              Contact
-            </Link>
+              <Link className="nav-link" to="/contact" onClick={this.myFunction}>
+                Contact
+              </Link>
 
           </div>
         </div>
@@ -68,4 +65,4 @@ class Navigation extends React.Component {
 
 
 
-export default withRouter(Navigation);
+export default Navigation;

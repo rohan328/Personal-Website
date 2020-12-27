@@ -3,14 +3,14 @@ import "./css/SocialBar.css"
 
 function SocialBar(color = "black"){
   return(
-    <div class="socialBar">
+    <div className="socialBar">
 
       <a
         href="https://www.github.com/rohan328"
         target="_blank"
         rel="noreferrer">
 
-        <svg id="github" class="socialBarIcon" enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+        <svg id="github" className="socialBarIcon" enableBackground="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
           <path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567
             0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082
             1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827
@@ -28,7 +28,7 @@ function SocialBar(color = "black"){
         target="_blank"
         rel="noreferrer">
 
-        <svg id="linkedin" class="socialBarIcon" enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+        <svg id="linkedin" className="socialBarIcon" enableBackground="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
           <path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" fill={`${color}`}/>
           <path d="m.396 7.977h4.976v16.023h-4.976z" fill={`${color}`}/>
           <path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" fill={`${color}`}/>
@@ -40,7 +40,7 @@ function SocialBar(color = "black"){
         target="_blank"
         rel="noreferrer">
 
-        <svg id="instagram" class="socialBarIcon" height="30" viewBox="0 0 511 511.9" width="30" xmlns="http://www.w3.org/2000/svg">
+        <svg id="instagram" className="socialBarIcon" height="30" viewBox="0 0 511 511.9" width="30" xmlns="http://www.w3.org/2000/svg">
           <path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5
             1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13
             12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781
@@ -71,7 +71,7 @@ function SocialBar(color = "black"){
         target="_blank"
         rel="noreferrer">
 
-        <svg id="twitter" class="socialBarIcon" height="30" width="30" xmlns="http://www.w3.org/2000/svg"
+        <svg id="twitter" className="socialBarIcon" height="30" width="30" xmlns="http://www.w3.org/2000/svg"
         	 viewBox="0 0 512 512">
         		<path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
         			c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
@@ -89,7 +89,7 @@ function SocialBar(color = "black"){
         target="_blank"
         rel="noreferrer">
 
-        <svg id="facebook" class="socialBarIcon" enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+        <svg id="facebook" className="socialBarIcon" enableBackground="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
           <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077
             2.051-2.077z" fill={`${color}`}/>
         </svg>

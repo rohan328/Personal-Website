@@ -59,8 +59,8 @@
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    position: fixed;
+  .topnav svg.icon {
+    position: absolute;
     right: 0;
     top: 0;
     padding: 15px 15px;
@@ -86,7 +86,7 @@
     position: fixed;
     transition: 0.3s;
   }
-  .topnav.responsive a.icon {
+  .topnav.responsive svg.icon {
     position: absolute;
     right: 0;
     top: 0;

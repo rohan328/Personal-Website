@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Particles from 'react-particles-js'
 import './index.css';
 import App from './App';
 import ParticlesBG from './components/ParticlesBG';

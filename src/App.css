@@ -6,6 +6,7 @@
 
 .App {
     position: fixed;
+    overflow-y: auto;
     font-family: abel;
     color: white;
     height: 100vh;

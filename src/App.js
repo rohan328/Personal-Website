@@ -1,8 +1,8 @@
 import React from "react"
 import "./App.css"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer } from "./components";
-import Home from "./pages/Home"
+import Navigation from "./components/Navigation";
+import {Home, Resume} from "./pages/"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
             <div className="content">
                 <Switch>
                     <Route path="/" exact component={() => <Home />} />
-                    <Route path="/resume" exact component={() => <Home />} />
+                    <Route path="/resume" exact component={() => <Resume />} />
                     <Route path="/projects" exact component={() => <Home />} />
                     <Route path="/contact" exact component={() => <Home />} />
                 </Switch>
