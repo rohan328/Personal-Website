@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Particles from 'react-particles-js'
 import './index.css';
 import App from './App';
+import ParticlesBG from './components/ParticlesBG';
 import reportWebVitals from './reportWebVitals';
-import underConstruction from "./components/underConstruction";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    
-    <App/>
+    <div>
+        <App/>
+        <ParticlesBG/>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

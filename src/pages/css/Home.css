@@ -1,0 +1,15 @@
+.col {
+    padding: 20px 20px;
+}
+
+#home-grid {
+    display: grid;
+    /* color: black; */
+    gap: 3rem 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 600px));
+    padding-bottom: 100px;
+}
+
+#homeIntro{
+    font-size: 18px;
+}

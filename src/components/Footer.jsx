@@ -6,11 +6,11 @@ function Footer() {
       <footer className="footer bg-dark">
         <div class="container">
           <p class="m-1 text-center text-white">
-            Copyright &copy; Rohan Ohlan 2020
             {SocialBar("white")}
+            Copyright &copy; Rohan Ohlan 2020
           </p>
         </div>
-      </footer>
+    </footer>
   );
 }
 

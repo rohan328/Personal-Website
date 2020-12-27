@@ -46,9 +46,6 @@ class Navigation extends React.Component {
 
             </a>
 
-            <Link class="nav-link" to="/" onClick={this.myFunction}>
-              About Me
-            </Link>
 
             <Link class="nav-link" to="/resume" onClick={this.myFunction}>
               Resume

@@ -2,7 +2,7 @@ import React from "react"
 import "./css/profileCard.css"
 import SocialBar from "./SocialBar"
 
-function profileCard(){
+function profileCard(color="black"){
   return(
     <div class="profileCard">
       <img class="profileCardImage" src="./images/profile.jpg" width='200px'/>
@@ -11,7 +11,7 @@ function profileCard(){
         <p class="title">Computer Engineering Student
                       <br/>San Jose State University
         </p>
-        <SocialBar/>
+        {SocialBar(color)}
       </div>
     </div>
   );
