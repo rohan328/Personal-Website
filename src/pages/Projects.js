@@ -64,7 +64,7 @@ function Projects(){
                         onClick={()=>window.open("https://github.com/rohan328/Personal-Website", '_blank')}>
                         <CardHeader title="Personal Website"/>
                         <CardContent className={classes.cardContent}>
-                            <img src="images/personalwebsite.gif" alt="personalwebsite.gif"/>
+                            <img id="websiteImage" src="images/personalwebsite.gif" alt="personalwebsite.gif"/>
                         </CardContent>
                     </Card>
                     <Card

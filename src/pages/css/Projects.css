@@ -16,6 +16,10 @@
     max-height: 225px;
 }
 
+#websiteImage{
+    max-width: 280px;
+}
+
 #project-grid {
     display: grid;
     /* color: black; */
