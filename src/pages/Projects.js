@@ -47,11 +47,19 @@ function Projects(){
                             </CardContent>
                         </Card>
                     </a>
+                    <a href="https://github.com/rohan328/Twitter-Client" target="_blank">
+                        <Card className={clsx(classes.card, "projectCards")}>
+                            <CardHeader title="Twitter Client"/>
+                            <CardContent className={classes.cardContent}>
+                                <img src="images/twitterclient.gif"/>
+                            </CardContent>
+                        </Card>
+                    </a>
                 </center>
             </Col>
             <Col>
                 <center>
-                    <a href="https://github.com/rohan328/Parsetagram" target="_blank">
+                    <a href="https://github.com/rohan328/Personal-Website" target="_blank">
                         <Card className={clsx(classes.card, "projectCards")}>
                             <CardHeader title="Personal Website"/>
                             <CardContent className={classes.cardContent}>
@@ -59,9 +67,22 @@ function Projects(){
                             </CardContent>
                         </Card>
                     </a>
-                    <Card className={clsx(classes.card, "projectCards")}>
-                        <CardHeader title="Resume"/>
-                    </Card>
+                    <a href="https://github.com/rohan328/MemoryGame" target="_blank">
+                        <Card className={clsx(classes.card, "projectCards")}>
+                            <CardHeader title="Memory Game"/>
+                            <CardContent className={classes.cardContent}>
+                                <img src="images/memorygame.gif"/>
+                            </CardContent>
+                        </Card>
+                    </a>
+                    <a href="https://github.com/rohan328/flixster" target="_blank">
+                        <Card className={clsx(classes.card, "projectCards")}>
+                            <CardHeader title="Flixster"/>
+                            <CardContent className={classes.cardContent}>
+                                <img src="images/flixster.gif"/>
+                            </CardContent>
+                        </Card>
+                    </a>
                 </center>
             </Col>
         </Container>
