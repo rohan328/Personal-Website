@@ -47,23 +47,23 @@ function Home() {
               </Row>
               <Col>
                   <center>
-                      <Link to="/resume">
-                          <Card className={clsx(classes.card, "homeCards")}>
-                              <CardHeader title="Resume"/>
-                          </Card>
-                      </Link>
+                      <Card
+                          className={clsx(classes.card, "homeCards")}
+                          href="/resume">
+                          <CardHeader title="Resume"/>
+                      </Card>
 
-                      <Link to="/projects">
-                          <Card className={clsx(classes.card, "homeCards")}>
-                              <CardHeader title="Projects"/>
-                          </Card>
-                      </Link>
+                      <Card
+                          className={clsx(classes.card, "homeCards")}
+                          href="/projects">
+                          <CardHeader title="Projects"/>
+                      </Card>
 
-                      <Link to="/contact">
-                          <Card className={clsx(classes.card, "homeCards")}>
-                              <CardHeader title="Contact"/>
-                          </Card>
-                      </Link>
+                      <Card
+                          className={clsx(classes.card, "homeCards")}
+                          href="/contact">
+                          <CardHeader title="Contact"/>
+                      </Card>
 
                   </center>
               </Col>
