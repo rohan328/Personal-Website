@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/Projects.css'
-import {Row, Col, Container} from 'reactstrap'
+import {Col, Container} from 'reactstrap'
 import { Card, makeStyles, CardHeader, CardContent } from '@material-ui/core';
 import clsx from 'clsx';
 
@@ -36,7 +36,7 @@ function Projects(){
                         onClick={() => window.open('https://github.com/DocchiAndroid/Docchi', '_blank')}>
                         <CardHeader title="Docchi"/>
                         <CardContent className={classes.cardContent}>
-                            <img src="images/docchi.gif"/>
+                            <img src="images/docchi.gif" alt="docchi.gif"/>
                         </CardContent>
                     </Card>
                     <Card
@@ -44,7 +44,7 @@ function Projects(){
                         onClick={()=> window.open("https://github.com/rohan328/Parsetagram", '_blank')}>
                         <CardHeader title="Parsetagram"/>
                         <CardContent className={classes.cardContent}>
-                            <img src="images/parsetagram.gif"/>
+                            <img src="images/parsetagram.gif" alt="parsetagram.gif"/>
                         </CardContent>
                     </Card>
                     <Card
@@ -52,7 +52,7 @@ function Projects(){
                         onClick={()=>window.open("https://github.com/rohan328/Twitter-Client", '_blank')}>
                         <CardHeader title="Twitter Client"/>
                         <CardContent className={classes.cardContent}>
-                            <img src="images/twitterclient.gif"/>
+                            <img src="images/twitterclient.gif" alt="twitterclient.gif"/>
                         </CardContent>
                     </Card>
                 </center>
@@ -64,7 +64,7 @@ function Projects(){
                         onClick={()=>window.open("https://github.com/rohan328/Personal-Website", '_blank')}>
                         <CardHeader title="Personal Website"/>
                         <CardContent className={classes.cardContent}>
-                            <img src="#"/>
+                            <img src="images/personalwebsite.gif" alt="personalwebsite.gif"/>
                         </CardContent>
                     </Card>
                     <Card
@@ -72,7 +72,7 @@ function Projects(){
                         onClick={() => window.open("https://github.com/rohan328/MemoryGame", '_blank')}>
                         <CardHeader title="Memory Game"/>
                         <CardContent className={classes.cardContent}>
-                            <img src="images/memorygame.gif"/>
+                            <img src="images/memorygame.gif" alt="memorygame.gif"/>
                         </CardContent>
                     </Card>
                     <Card
@@ -80,7 +80,7 @@ function Projects(){
                         onClick={()=>window.open("https://github.com/rohan328/flixster", '_blank')}>
                         <CardHeader title="Flixster"/>
                         <CardContent className={classes.cardContent}>
-                            <img src="images/flixster.gif"/>
+                            <img src="images/flixster.gif" alt="flixster.gif"/>
                         </CardContent>
                     </Card>
                 </center>

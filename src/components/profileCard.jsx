@@ -5,7 +5,11 @@ import SocialBar from "./SocialBar"
 function profileCard(color="black"){
   return(
     <div className="profileCard">
-      <img className="profileCardImage" src="./images/profile.jpg" width='200px'/>
+      <img
+          className="profileCardImage"
+          src="./images/profile.jpg"
+          width='200px'
+          alt="profile"/>
       <div className="detailsContainerProfileCard">
         <h1><b>Rohan Ohlan</b></h1>
         <p className="title">Computer Engineering Student

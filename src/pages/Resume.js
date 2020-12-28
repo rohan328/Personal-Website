@@ -14,7 +14,7 @@ function Resume(){
         <div>
             <center>
                 <a href="resume.pdf" download>
-                    <img src="images/download.svg" height='50px'/>
+                    <img src="images/download.svg" height='50px' alt="download button"/>
                 </a>
                 <br/><br/>
                 <Document file='resumeDark.pdf'>

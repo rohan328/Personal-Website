@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Col, Container} from 'reactstrap'
+import {Col, Container} from 'reactstrap'
 import SocialBar from '../components/SocialBar'
 import './css/Contact.css'
 
@@ -7,9 +7,22 @@ function Contact(){
     return(
         <Container id="contact-grid">
             <Col id="email">
-                Email me at: <a href="mailto:rohan@rohan328.com" target="_blank">rohan@rohan328.com</a>
+                Email me at:
+                <a
+                    href="mailto:rohan@rohan328.com"
+                    target="_blank"
+                    rel="noreferrer">
+
+                    rohan@rohan328.com
+                </a>
                 <br/>
-                <a href="mailto:ohlanrohan@gmail.com" target="_blank">ohlanrohan@gmail.com</a>
+                <a
+                    href="mailto:ohlanrohan@gmail.com"
+                    target="_blank"
+                    rel="noreferrer">
+
+                    ohlanrohan@gmail.com
+                </a>
             </Col>
 
             <Col>

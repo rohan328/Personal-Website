@@ -1,6 +1,5 @@
 import React from 'react';
 import {Row, Col, Container} from 'reactstrap'
-import {Link,} from 'react-router-dom';
 import { Card, makeStyles, CardHeader } from '@material-ui/core';
 import clsx from 'clsx';
 import profileCard from '../components/profileCard'
@@ -49,19 +48,19 @@ function Home() {
                   <center>
                       <Card
                           className={clsx(classes.card, "homeCards")}
-                          href="/resume">
+                          onClick={()=> {window.location.href='/resume'}}>
                           <CardHeader title="Resume"/>
                       </Card>
 
                       <Card
                           className={clsx(classes.card, "homeCards")}
-                          href="/projects">
+                          onClick={()=> {window.location.href='/projects'}}>
                           <CardHeader title="Projects"/>
                       </Card>
 
                       <Card
                           className={clsx(classes.card, "homeCards")}
-                          href="/contact">
+                          onClick={()=> {window.location.href='/contact'}}>
                           <CardHeader title="Contact"/>
                       </Card>
 
