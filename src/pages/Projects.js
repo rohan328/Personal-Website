@@ -31,58 +31,58 @@ function Projects(){
         <Container id='project-grid'>
             <Col>
                 <center>
-                    <a href="https://github.com/DocchiAndroid/Docchi" target="_blank">
-                        <Card className={clsx(classes.card, "projectCards")}>
-                            <CardHeader title="Docchi"/>
-                            <CardContent className={classes.cardContent}>
-                                <img src="images/docchi.gif"/>
-                            </CardContent>
-                        </Card>
-                    </a>
-                    <a href="https://github.com/rohan328/Parsetagram" target="_blank">
-                        <Card className={clsx(classes.card, "projectCards")}>
-                            <CardHeader title="Parsetagram"/>
-                            <CardContent className={classes.cardContent}>
-                                <img src="images/parsetagram.gif"/>
-                            </CardContent>
-                        </Card>
-                    </a>
-                    <a href="https://github.com/rohan328/Twitter-Client" target="_blank">
-                        <Card className={clsx(classes.card, "projectCards")}>
-                            <CardHeader title="Twitter Client"/>
-                            <CardContent className={classes.cardContent}>
-                                <img src="images/twitterclient.gif"/>
-                            </CardContent>
-                        </Card>
-                    </a>
+                    <Card
+                        className={clsx(classes.card, "projectCards")}
+                        onClick={() => window.open('https://github.com/DocchiAndroid/Docchi', '_blank')}>
+                        <CardHeader title="Docchi"/>
+                        <CardContent className={classes.cardContent}>
+                            <img src="images/docchi.gif"/>
+                        </CardContent>
+                    </Card>
+                    <Card
+                        className={clsx(classes.card, "projectCards")}
+                        onClick={()=> window.open("https://github.com/rohan328/Parsetagram", '_blank')}>
+                        <CardHeader title="Parsetagram"/>
+                        <CardContent className={classes.cardContent}>
+                            <img src="images/parsetagram.gif"/>
+                        </CardContent>
+                    </Card>
+                    <Card
+                        className={clsx(classes.card, "projectCards")}
+                        onClick={()=>window.open("https://github.com/rohan328/Twitter-Client", '_blank')}>
+                        <CardHeader title="Twitter Client"/>
+                        <CardContent className={classes.cardContent}>
+                            <img src="images/twitterclient.gif"/>
+                        </CardContent>
+                    </Card>
                 </center>
             </Col>
             <Col>
                 <center>
-                    <a href="https://github.com/rohan328/Personal-Website" target="_blank">
-                        <Card className={clsx(classes.card, "projectCards")}>
-                            <CardHeader title="Personal Website"/>
-                            <CardContent className={classes.cardContent}>
-                                <img src="#"/>
-                            </CardContent>
-                        </Card>
-                    </a>
-                    <a href="https://github.com/rohan328/MemoryGame" target="_blank">
-                        <Card className={clsx(classes.card, "projectCards")}>
-                            <CardHeader title="Memory Game"/>
-                            <CardContent className={classes.cardContent}>
-                                <img src="images/memorygame.gif"/>
-                            </CardContent>
-                        </Card>
-                    </a>
-                    <a href="https://github.com/rohan328/flixster" target="_blank">
-                        <Card className={clsx(classes.card, "projectCards")}>
-                            <CardHeader title="Flixster"/>
-                            <CardContent className={classes.cardContent}>
-                                <img src="images/flixster.gif"/>
-                            </CardContent>
-                        </Card>
-                    </a>
+                    <Card
+                        className={clsx(classes.card, "projectCards")}
+                        onClick={()=>window.open("https://github.com/rohan328/Personal-Website", '_blank')}>
+                        <CardHeader title="Personal Website"/>
+                        <CardContent className={classes.cardContent}>
+                            <img src="#"/>
+                        </CardContent>
+                    </Card>
+                    <Card
+                        className={clsx(classes.card, "projectCards")}
+                        onClick={() => window.open("https://github.com/rohan328/MemoryGame", '_blank')}>
+                        <CardHeader title="Memory Game"/>
+                        <CardContent className={classes.cardContent}>
+                            <img src="images/memorygame.gif"/>
+                        </CardContent>
+                    </Card>
+                    <Card
+                        className={clsx(classes.card, "projectCards")}
+                        onClick={()=>window.open("https://github.com/rohan328/flixster", '_blank')}>
+                        <CardHeader title="Flixster"/>
+                        <CardContent className={classes.cardContent}>
+                            <img src="images/flixster.gif"/>
+                        </CardContent>
+                    </Card>
                 </center>
             </Col>
         </Container>
