@@ -1,6 +1,7 @@
 import React from 'react';
 import {Row, Col, Container} from 'reactstrap'
 import { Card, makeStyles, CardHeader } from '@material-ui/core';
+import {useHistory} from "react-router-dom";
 import clsx from 'clsx';
 import profileCard from '../components/profileCard'
 import "./css/Home.css"
@@ -26,9 +27,11 @@ const useStyles = makeStyles((theme) => ({
 
 function Home() {
     const classes = useStyles()
+    let history = useHistory()
 
   return (
-      <Container id="home-grid">
+
+      <Container id="home-grid" onLoad={() => history.push("/")} >
           <Col>
               <center>
                   {profileCard("white")}
@@ -48,19 +51,19 @@ function Home() {
                   <center>
                       <Card
                           className={clsx(classes.card, "homeCards")}
-                          onClick={()=> {window.location.href='/resume'}}>
+                          onClick={()=> {history.push("/resume")}}>
                           <CardHeader title="Resume"/>
                       </Card>
 
                       <Card
                           className={clsx(classes.card, "homeCards")}
-                          onClick={()=> {window.location.href='/projects'}}>
+                          onClick={()=> {history.push("/projects")}}>
                           <CardHeader title="Projects"/>
                       </Card>
 
                       <Card
                           className={clsx(classes.card, "homeCards")}
-                          onClick={()=> {window.location.href='/contact'}}>
+                          onClick={()=> {history.push("/contact")}}>
                           <CardHeader title="Contact"/>
                       </Card>
 

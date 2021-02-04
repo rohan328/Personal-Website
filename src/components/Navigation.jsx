@@ -1,7 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link, useHistory, withRouter} from "react-router-dom";
 import "./css/Navigation.css"
-
 
 
 class Navigation extends React.Component {
@@ -12,7 +11,7 @@ class Navigation extends React.Component {
 
   }
 
-  myFunction() {
+  myFunction(pageName) {
     var x = document.getElementById("topNav");
     var menu = document.getElementById("menu");
     if(window.getComputedStyle(menu).display !== "none"){
@@ -22,17 +21,17 @@ class Navigation extends React.Component {
         x.className = "topnav";
       }
     }
+    this.props.history.push(pageName)
   }
 
   render() {
-      
 
     return(
       <div className="topnav" id="topNav">
         <div className="navbar">
 
           <div className="nav-title">
-            <Link className="navTitleText" to="/">
+            <Link className="navTitleText" onClick={()=> {this.props.history.push("/")}}>
               Rohan Ohlan
             </Link>
           </div>
@@ -46,15 +45,15 @@ class Navigation extends React.Component {
                 <rect x="0" y="64" width="384" height="42.667" fill="white"/>
               </svg>
 
-              <Link className="nav-link" to="/resume" onClick={this.myFunction}>
+              <Link className="nav-link" onClick={() => this.myFunction("resume")}>
                 Resume
               </Link>
 
-              <Link className="nav-link" to="/projects" onClick={this.myFunction}>
+              <Link className="nav-link" onClick={() => this.myFunction("projects")}>
                 Projects
               </Link>
 
-              <Link className="nav-link" to="/contact" onClick={this.myFunction}>
+              <Link className="nav-link" onClick={() => this.myFunction("contact")}>
                 Contact
               </Link>
 
@@ -71,4 +70,4 @@ class Navigation extends React.Component {
 
 
 
-export default Navigation;
+export default withRouter(Navigation);
