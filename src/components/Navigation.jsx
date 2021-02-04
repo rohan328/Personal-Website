@@ -25,6 +25,8 @@ class Navigation extends React.Component {
   }
 
   render() {
+      
+
     return(
       <div className="topnav" id="topNav">
         <div className="navbar">
