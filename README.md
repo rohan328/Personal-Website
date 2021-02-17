@@ -1,4 +1,4 @@
 # Personal Website
 
-<a href="https://rohan328.com">https://rohan328.com</a>
+<a href="https://rohan328.com" target="_blank">https://rohan328.com</a>
 
