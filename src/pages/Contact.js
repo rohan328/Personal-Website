@@ -1,10 +1,10 @@
 import React from 'react';
-import {Col, Container} from 'reactstrap'
+import { Col, Container } from 'reactstrap'
 import SocialBar from '../components/SocialBar'
 import './css/Contact.css'
 
-function Contact(){
-    return(
+function Contact() {
+    return (
         <Container id="contact-grid">
             <Col id="email">
                 Email me at:
@@ -15,7 +15,7 @@ function Contact(){
 
                     rohan@rohan328.com
                 </a>
-                <br/>
+                <br />
                 <a
                     href="mailto:ohlanrohan@gmail.com"
                     target="_blank"
@@ -26,7 +26,7 @@ function Contact(){
             </Col>
 
             <Col>
-                Or connect on social media:<br/>
+                Or connect on social media:<br />
                 {SocialBar("white")}
             </Col>
         </Container>

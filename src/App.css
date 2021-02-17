@@ -1,19 +1,18 @@
 @font-face {
-  font-family: abel;
-  src: "Abel-Regular.ttf";
-  src: local('Abel-Regular'), url('./fonts/Abel-Regular.ttf') format('truetype');
+	font-family: abel;
+	src: "Abel-Regular.ttf";
+	src: local('Abel-Regular'), url('./fonts/Abel-Regular.ttf') format('truetype');
 }
 
 .App {
-    position: fixed;
-    overflow-y: auto;
-    font-family: abel;
-    color: white;
-    height: 100vh;
-    width: 100vw;
+	position: fixed;
+	overflow-y: auto;
+	font-family: abel;
+	color: white;
+	height: 100vh;
+	width: 100vw;
 }
 
 .content{
-    margin-top: 60px
-
+	margin-top: 60px
 }
