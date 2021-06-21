@@ -9,11 +9,11 @@ function Contact() {
             <Col id="email">
                 Email me at:
                 <a
-                    href="mailto:rohan@rohan328.com"
+                    href="mailto:rohan@ohlan.me"
                     target="_blank"
                     rel="noreferrer">
 
-                    rohan@rohan328.com
+                    rohan@ohlan.me
                 </a>
                 <br />
                 <a
