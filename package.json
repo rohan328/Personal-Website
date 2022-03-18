@@ -20,6 +20,8 @@
     "@angular/router": "~13.2.0",
     "bybit-api": "^2.1.9",
     "node-binance-api": "^0.13.1",
+    "primeicons": "^5.0.0",
+    "primeng": "^13.3.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
