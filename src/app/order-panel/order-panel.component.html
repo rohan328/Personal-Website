@@ -1,0 +1,15 @@
+<div class="margin-mode">
+    <div class="'p-field-radiobutton">
+        <p-radioButton ninputId="crossRadio" value="cross" [(ngModel)]="marginMode"></p-radioButton>
+        Cross
+    </div>
+    <div class="p-field-radiobutton">
+        <p-radioButton inputId="isolatedRadio" value="isolated" [(ngModel)]="marginMode"></p-radioButton>
+        Isolated
+    </div>
+</div>
+
+<div class="leverage-slider">
+    <label>Leverage: {{val}}x</label>
+    <p-slider [(ngModel)]="val"></p-slider>
+</div>
