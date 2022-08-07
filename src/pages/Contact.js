@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container } from 'reactstrap'
-import SocialBar from '../components/SocialBar'
+import SocialBar from '../components/socialBar'
 import './css/Contact.css'
 
 function Contact() {

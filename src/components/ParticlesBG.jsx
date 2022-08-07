@@ -1,12 +1,23 @@
 import React from 'react'
-import Particles from 'react-particles-js'
-import './css/ParticlesBG.css'
+import Particles from 'react-particles'
+import { loadFull } from "tsparticles";
+import { useCallback } from "react";
 
 function ParticlesBG() {
+	const particlesInit = useCallback(async (engine) => {
+        await loadFull(engine);
+    }, []);
+
 	return (
 		<Particles id="particles-js"
+			init={particlesInit}
 			params={
 				{
+					"background": {
+						"color": {
+						  "value": "#000"
+						},
+					},
 					"particles": {
 						"number": {
 							"value": 80,

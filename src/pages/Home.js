@@ -40,10 +40,8 @@ function Home() {
                 <Row>
                     <center>
                         <h1>Hi, I'm Rohan</h1>
-                        <p id="homeIntro">I am currently a second year Computer Engineering Major
-                        at San Jose State University, planning to graduate in
-                        December of 2022. I am seeking an internship for
-                        Summer 2021.
+                        <p id="homeIntro">I am a graduating senior at San Jose State University, planning to graduate in
+                        December of 2022. I am seeking a full time SDE/SWE position starting January 2023.
                     </p>
                     </center>
                 </Row>

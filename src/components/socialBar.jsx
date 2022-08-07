@@ -1,5 +1,5 @@
 import React from "react"
-import "./css/SocialBar.css"
+import "./css/socialBar.css"
 
 function SocialBar(color = "black") {
 	return (

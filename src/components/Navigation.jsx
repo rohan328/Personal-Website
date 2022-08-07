@@ -29,7 +29,7 @@ class Navigation extends React.Component {
 				<div className="navbar">
 
 					<div className="nav-title">
-						<Link className="navTitleText" onClick={() => { this.props.history.push("/") }}>
+						<Link to='/' className="navTitleText" onClick={() => { this.props.history.push("/") }}>
 							Rohan Ohlan
 						</Link>
 					</div>
@@ -43,15 +43,15 @@ class Navigation extends React.Component {
 							<rect x="0" y="64" width="384" height="42.667" fill="white" />
 						</svg>
 
-						<Link className="nav-link" onClick={() => this.myFunction("resume")}>
+						<Link to='/resume' className="nav-link" onClick={() => this.myFunction("resume")}>
 							Resume
 							</Link>
 
-						<Link className="nav-link" onClick={() => this.myFunction("projects")}>
+						<Link to='/projects' className="nav-link" onClick={() => this.myFunction("projects")}>
 							Projects
 							</Link>
 
-						<Link className="nav-link" onClick={() => this.myFunction("contact")}>
+						<Link to='/contact' className="nav-link" onClick={() => this.myFunction("contact")}>
 							Contact
 							</Link>
 

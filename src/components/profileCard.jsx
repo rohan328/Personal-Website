@@ -1,6 +1,6 @@
 import React from "react"
 import "./css/profileCard.css"
-import SocialBar from "./SocialBar"
+import SocialBar from "./socialBar"
 
 function profileCard(color = "black") {
 	return (
